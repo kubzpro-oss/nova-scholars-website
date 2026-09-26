@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Nova Scholars | Student Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- ==============================
+     HEADER
+============================== -->
+
+<header>
+
+    <div class="header-content">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                🎓
+            </div>
+
+            <div>
+
+                <h1>NOVA SCHOLARS</h1>
+
+                <p>
+                    Student Academic Hub
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ==============================
+     NAVIGATION
+============================== -->
+
+<nav>
+
+    <div class="nav-container">
+
+        <a href="index.html" class="active">
+            Home
+        </a>
+
+        <a href="coursework.html">
+            Coursework
+        </a>
+
+        <a href="notes.html">
+            Notes
+        </a>
+
+        <a href="timetable.html">
+            Timetable
+        </a>
+
+        <a href="documents.html">
+            Documents
+        </a>
+
+        <a href="gallery.html">
+            Gallery
+        </a>
+
+        <a href="announcements.html">
+            Announcements
+        </a>
+
+    </div>
+
+</nav>
+
+
+<!-- ==============================
+     HERO
+============================== -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h2>
+            Welcome to
+            <span>Nova Scholars</span>
+        </h2>
+
+        <p>
+            Your central student hub for coursework,
+            lecture notes, timetables, documents,
+            group work and unforgettable memories.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="coursework.html"
+               class="btn btn-primary">
+
+                View Coursework
+
+            </a>
+
+
+            <a href="notes.html"
+               class="btn btn-light">
+
+                Study Notes
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Search Section -->
+<section class="search-section">
+    <h2>🔍 Search Nova Scholars</h2>
+    <p>Find coursework, notes, documents and other resources quickly.</p>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for a course or resource..."
+        onkeyup="searchResources()"
+    >
+
+    <div id="searchResults"></div>
+</section>
+
+<!-- ==============================
+     STUDENT RESOURCES
+============================== -->
+
+<section class="container">
+
+    <div class="section-title">
+
+        <h2>
+            📚 Student Resources
+        </h2>
+
+        <p>
+            Everything our group needs, organised in one place.
+        </p>
+
+    </div>
+
+
+    <div class="cards">
+
+
+        <!-- COURSEWORK -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📚
+            </div>
+
+            <h3>
+                Coursework
+            </h3>
+
+            <p>
+                Access coursework questions,
+                assignments and important deadlines.
+            </p>
+
+            <a href="coursework.html"
+               class="card-link">
+
+                Explore →
+
+            </a>
+
+        </div>
+
+
+        <!-- NOTES -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📝
+            </div>
+
+            <h3>
+                Lecture Notes
+            </h3>
+
+            <p>
+                Find lecture notes and revision
+                materials for our courses.
+            </p>
+
+            <a href="notes.html"
+               class="card-link">
+
+                Study →
+
+            </a>
+
+        </div>
+
+
+        <!-- TIMETABLE -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📅
+            </div>
+
+            <h3>
+                Timetable
+            </h3>
+
+            <p>
+                Check our latest class timetable
+                and important academic dates.
+            </p>
+
+            <a href="timetable.html"
+               class="card-link">
+
+                View →
+
+            </a>
+
+        </div>
+
+
+        <!-- DOCUMENTS -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📂
+            </div>
+
+            <h3>
+                Documents
+            </h3>
+
+            <p>
+                Access PDFs, Word documents,
+                presentations and group work.
+            </p>
+
+            <a href="documents.html"
+               class="card-link">
+
+                Browse →
+
+            </a>
+
+        </div>
+
+
+        <!-- GALLERY -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📸
+            </div>
+
+            <h3>
+                Gallery
+            </h3>
+
+            <p>
+                Explore our Thursday moments,
+                group activities and memories.
+            </p>
+
+            <a href="gallery.html"
+               class="card-link">
+
+                View Photos →
+
+            </a>
+
+        </div>
+
+
+        <!-- ANNOUNCEMENTS -->
+
+        <div class="card">
+
+            <div class="card-icon">
+                📢
+            </div>
+
+            <h3>
+                Announcements
+            </h3>
+
+            <p>
+                Stay updated with important
+                information and group notices.
+            </p>
+
+            <a href="announcements.html"
+               class="card-link">
+
+                Read →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==============================
+     LATEST ANNOUNCEMENT
+============================== -->
+
+<section class="container">
+
+    <div class="section-title">
+
+        <h2>
+            📢 Latest Announcement
+        </h2>
+
+    </div>
+
+
+    <div class="announcement-box">
+
+        <h3>
+            Welcome to the Nova Scholars Student Hub
+        </h3>
+
+        <p>
+            This platform brings our academic materials,
+            coursework, documents, timetable and group
+            memories together in one convenient place.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==============================
+     QUICK LINKS
+============================== -->
+
+<section class="container">
+
+    <div class="section-title">
+
+        <h2>
+            ⚡ Quick Access
+        </h2>
+
+    </div>
+
+
+    <div class="quick-links">
+
+        <a href="coursework.html"
+           class="quick-link">
+
+            📚 Coursework
+
+        </a>
+
+
+        <a href="notes.html"
+           class="quick-link">
+
+            📝 Notes
+
+        </a>
+
+
+        <a href="timetable.html"
+           class="quick-link">
+
+            📅 Timetable
+
+        </a>
+
+
+        <a href="gallery.html"
+           class="quick-link">
+
+            📸 Gallery
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ==============================
+     FOOTER
+============================== -->
+
+<footer>
+
+    <div class="footer-content">
+
+
+        <div class="footer-section">
+
+            <h3>
+                🎓 NOVA SCHOLARS
+            </h3>
+
+            <p>
+                Our student platform for sharing
+                academic resources, information,
+                group work and memories.
+            </p>
+
+        </div>
+
+
+        <div class="footer-section">
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <a href="coursework.html">
+                Coursework
+            </a>
+
+            <a href="notes.html">
+                Notes
+            </a>
+
+            <a href="documents.html">
+                Documents
+            </a>
+
+        </div>
+
+
+        <div class="footer-section">
+
+            <h3>
+                Group
+            </h3>
+
+            <a href="timetable.html">
+                Timetable
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="announcements.html">
+                Announcements
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Nova Scholars Student Hub.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
